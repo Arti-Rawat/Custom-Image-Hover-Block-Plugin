@@ -1,0 +1,28 @@
+.ihb-container .hover-wrapper {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.ihb-container .hover-wrapper img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.ihb-container .hover-text-preview {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.ihb-container .hover-wrapper:hover .hover-text-preview {
+    opacity: 1;
+}

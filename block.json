@@ -1,0 +1,22 @@
+{
+  "apiVersion": 2,
+  "name": "custom/image-hover-block",
+  "title": "Image Hover Text",
+  "category": "media",
+  "icon": "format-image",
+  "description": "Display text overlay on image hover.",
+  "version": "1.0.0",
+  "editorScript": "file:./build/index.js",
+  "editorStyle": "file:./build/index.css",
+  "style": "file:./build/style-index.css",
+  "attributes": {
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "hoverText": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}
